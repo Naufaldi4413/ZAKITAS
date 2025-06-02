@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wafa Skincare</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-300 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <div class="text-green- font-semibold text-xl">
+        <img src="logo.png" alt="Wafa Skincare" class="inline w-6 mr-2"> WafaSkincare
+      </div>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#home" class="hover:text-green-600">Home</a>
+        <a href="#about" class="hover:text-green-600">About</a>
+        <a href="#produk" class="hover:text-green-600">Product</a>
+        <a href="#blog" class="hover:text-green-600">Blog</a>
+        <a href="#kontak" class="hover:text-green-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-red-300">
+    <div class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center px-6 py-12">
+      <!-- Text Content -->
+      <div class="md:w-1/2 space-y-6">
+        <h5 class="uppercase text-sm font-semibold text-white">ZAKITA SKINCARE</h5>
+        <h1 class="text-4xl font-extrabold text-white leading-tight">
+          Buy Our Products<br>Before They Run Out<br>
+          <span class="text-black">By ZAKITA SKINCARE</span>
+        </h1>
+        <p class="text-white">
+          <span class="font-bold text-black">Hanasui</span> adalah solusi skincare terbaik untuk kulit berjerawat.
+          Diformulasikan dengan bahan aktif alami seperti 
+          <em>tea tree oil</em>, <em>niacinamide</em>, dan <em>centella asiatica</em>.
+        </p>
+        <a href="#produk" class="inline-block bg-white hover:bg-blue-600 text-black px-6 py-2 rounded">
+          Lihat Produk
+        </a>
+      </div>
+      <!-- Image -->
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <img src="https://i.ibb.co/2ZqTQkz/woman-cream.png" alt="Skincare Woman" class="w-full max-w-md mx-auto rounded-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Acnaway Section -->
+  <section id="about" class="flex flex-col md:flex-row w-full">
+    <div class="bg-red-400 text-white flex items-center justify-center w-full md:w-1/2 py-16">
+      <h2 class="text-4xl font-semibold tracking-widest">Hanasui</h2>
+    </div>
+    <div class="bg-white w-full md:w-1/2 p-8 md:p-12 text-gray-800">
+      <h3 class="text-2xl font-bold mb-4 text-black">Tentang Hanasui</h3>
+      <p class="mb-4">
+        <strong>Hanasui</strong> adalah solusi perawatan kulit untuk masalah jerawat dari akar permasalahan.
+      </p>
+      <p class="mb-4">
+        Mengandung <em>tea tree oil</em>, <em>niacinamide</em>, dan <em>centella asiatica</em> yang meredakan peradangan dan mempercepat regenerasi kulit.
+      </p>
+      <p class="mb-4">
+        Cruelty-free, aman untuk semua jenis kulit, termasuk kulit sensitif.
+      </p>
+      <p>
+        Jadikan Acnaway bagian dari rutinitas harianmu!
+      </p>
+    </div>
+  </section>
+
+  <!-- Produk Section -->
+  <section id="produk" class="py-10">
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-bold text-white">ZAKITA Best Seller</h1>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 max-w-7xl mx-auto">
+      <!-- Facewash -->
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center">
+        <img src="https://via.placeholder.com/100x180.png?text=Facewash" alt="Facewash" class="h-44 object-contain mb-4">
+        <h2 class="text-lg font-semibold mb-2">Facewash</h2>
+        <p class="text-gray-600 mb-4">Membersihkan dan melawan jerawat dengan lembut.</p>
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Beli Sekarang</button>
+      </div>
+      <!-- Sunscreen -->
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center">
+        <img src="https://via.placeholder.com/100x180.png?text=Sunscreen" alt="Sunscreen" class="h-44 object-contain mb-4">
+        <h2 class="text-lg font-semibold mb-2">Sunscreen</h2>
+        <p class="text-gray-600 mb-4">Lindungi dari UV tanpa menyumbat pori.</p>
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Beli Sekarang</button>
+      </div>
+      <!-- Moisturizer -->
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center">
+        <img src="https://via.placeholder.com/100x100.png?text=Moisturizer" alt="Moisturizer" class="h-24 object-contain mb-4">
+        <h2 class="text-lg font-semibold mb-2">Moisturizer</h2>
+        <p class="text-gray-600 mb-4">Melembapkan tanpa rasa berat dan menjaga keseimbangan.</p>
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Beli Sekarang</button>
+      </div>
+      <!-- Bundling -->
+      <div class="bg-white rounded-xl shadow p-6 flex flex-col items-center text-center">
+        <img src="https://via.placeholder.com/180x140.png?text=Bundling" alt="Bundling" class="h-32 object-contain mb-4">
+        <h2 class="text-lg font-semibold mb-2">Bundling</h2>
+        <p class="text-gray-600 mb-4">Paket lengkap untuk perawatan maksimal kulit berjerawat.</p>
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Beli Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-10">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-green-800">Artikel Kesehatan Kulit</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 max-w-7xl mx-auto">
+      <!-- Artikel 1 -->
+      <div class="bg-green-100 rounded-xl overflow-hidden shadow">
+        <img src="https://via.placeholder.com/400x250.png?text=Jerawat" alt="Cara Merawat Kulit Berjerawat" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-green-800 font-semibold text-lg mb-2">Cara Merawat Kulit Berjerawat</h3>
+          <p class="text-gray-700 text-sm mb-2">Pahami penyebab jerawat dan bagaimana mengatasinya dengan rutinitas yang tepat...</p>
+          <a href="#" class="text-green-600 font-semibold text-sm">Baca selengkapnya</a>
+        </div>
+      </div>
+      <!-- Artikel 2 -->
+      <div class="bg-green-100 rounded-xl overflow-hidden shadow">
+        <img src="https://via.placeholder.com/400x250.png?text=Niacinamide" alt="Manfaat Niacinamide" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-green-800 font-semibold text-lg mb-2">Manfaat Niacinamide</h3>
+          <p class="text-gray-700 text-sm mb-2">Niacinamide efektif untuk mencerahkan, melembapkan, dan menyamarkan bekas...</p>
+          <a href="#" class="text-green-600 font-semibold text-sm">Baca selengkapnya</a>
+        </div>
+      </div>
+      <!-- Artikel 3 -->
+      <div class="bg-green-100 rounded-xl overflow-hidden shadow">
+        <img src="https://via.placeholder.com/400x250.png?text=Sunscreen" alt="Kenapa Sunscreen Itu Wajib?" class="w-full h-56 object-cover">
+        <div class="p-4">
+          <h3 class="text-green-800 font-semibold text-lg mb-2">Kenapa Sunscreen Itu Wajib?</h3>
+          <p class="text-gray-700 text-sm mb-2">Paparan sinar UV bisa memperparah kondisi kulit. Sunscreen adalah pelindung utama...</p>
+          <a href="#" class="text-green-600 font-semibold text-sm">Baca selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Section -->
+  <section id="kontak" class="max-w-6xl mx-auto my-10 bg-white rounded-lg shadow-lg flex flex-col md:flex-row overflow-hidden">
+    <div class="md:w-1/2 bg-green-500 text-white p-8">
+      <h2 class="text-2xl font-bold mb-4">Informasi Kontak</h2>
+      <p class="mb-6">Ada pertanyaan? Hubungi kami langsung!</p>
+      <ul class="space-y-4">
+        <li>📞 +62 812 3456 7890</li>
+        <li>📧 wafaskincare@gmail.com</li>
+        <li>📍 Perumahan Telang Puri, Kamal, Bangkalan</li>
+      </ul>
+      <div class="flex space-x-4 mt-6 text-2xl">
+        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/shop.png" alt="shop" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="instagram" /></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/whatsapp.png" alt="whatsapp" /></a>
+      </div>
+    </div>
+    <div class="md:w-1/2 p-8 bg-white">
+      <h2 class="text-2xl font-bold text-green-600 mb-4">Hubungi Kami</h2>
+      <form class="space-y-4">
+        <div class="flex gap-4">
+          <input type="text" placeholder="Nama Depan" class="w-1/2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500"/>
+          <input type="text" placeholder="Nama Belakang" class="w-1/2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500"/>
+        </div>
+        <div class="flex gap-4">
+          <input type="email" placeholder="Email" class="w-1/2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500"/>
+          <input type="tel" placeholder="+62 8xxx xxxx xxx" class="w-1/2 border-b-2 border-gray-300 focus:outline-none focus:border-green-500"/>
+        </div>
+        <div>
+          <p class="font-medium mb-1">Pilih Subjek:</p>
+          <label class="mr-4"><input type="radio" name="subject" checked> Pertanyaan Umum</label>
+          <label class="mr-4"><input type="radio" name="subject"> Pemesanan</label>
+          <label><input type="radio" name="subject"> Komplain</label>
+        </div>
+        <textarea rows="4" placeholder="Tulis pesan Anda..." class="w-full border-b-2 border-gray-300 focus:outline-none focus:border-green-500"></textarea>
+        <button type="submit" class="bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 text-sm text-green-800">
+    &copy; 2025 WAFA Skincare. All rights reserved.
+  </footer>
+
+</body>
+</html>
